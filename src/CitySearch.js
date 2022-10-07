@@ -42,7 +42,7 @@ class CitySearch extends Component {
             {suggestion}
           </li>
         ))}
-        <li>
+        <li key='all'>
           <b>See all cities</b>
         </li>
       </ul>

@@ -7,9 +7,9 @@ class EventList extends Component {
     //const { events } = this.props;
     return (
       <ul className="EventList">
-        {mockData.map(event =>
-          <li key={event.id}>
-            <Event event={event} />
+        {mockData.map(events =>
+          <li key={events.id}>
+            <Event events={mockData} />
           </li>
         )}
       </ul>
